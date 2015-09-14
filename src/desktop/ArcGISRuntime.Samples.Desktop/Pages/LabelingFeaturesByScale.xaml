@@ -1,0 +1,48 @@
+﻿<Page x:Class="ArcGISRuntime.Samples.Desktop.Pages.LabelingFeaturesByScale"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="縮尺によるラベル制御">
+    <Grid x:Name="layoutRoot">
+        <Grid.Resources>
+            <!--赤テキスト シンボル-->
+            <esri:TextSymbol x:Key="redTextSymbol" Color="Red" BorderLineColor="LightPink" BorderLineSize="1">
+                <esri:SymbolFont FontFamily="Meiryo" FontSize="12.0" FontWeight="Bold" FontStyle="Normal" TextDecoration="None" />
+            </esri:TextSymbol>
+            <!--青テキスト シンボル-->
+            <esri:TextSymbol x:Key="blueTextSymbol" Color="Blue" BorderLineColor="LightBlue" BorderLineSize="1">
+                <esri:SymbolFont FontFamily="Meiryo" FontSize="12.0" FontWeight="Bold" FontStyle="Normal" TextDecoration="None" />
+            </esri:TextSymbol>
+            <!--赤ラベル クラス-->
+            <esri:AttributeLabelClass x:Key="redLabel"
+                                      Symbol="{StaticResource redTextSymbol}" 
+                                      DuplicateLabels="RemoveWithinLabelClass"
+                                      LabelPlacement="PolygonAlwaysHorizontal"
+                                      LabelPosition="RepositionOrRemove"
+                                      LabelPriority="Highest"
+                                      MaxScale="2000001"
+                                      TextExpression="[KEN]" />
+            <!--青ラベル クラス-->
+            <esri:AttributeLabelClass x:Key="blueLabel"
+                                      Symbol="{StaticResource blueTextSymbol}" 
+                                      DuplicateLabels="RemoveWithinLabelClass"
+                                      LabelPlacement="PolygonAlwaysHorizontal"
+                                      LabelPosition="RepositionOrRemove"
+                                      LabelPriority="Highest"
+                                      MinScale="2000000"
+                                      TextExpression="[KEN] CONCAT &quot; (人口： &quot; CONCAT [SUM_P_NUM] CONCAT &quot;人 ) &quot;" />
+        </Grid.Resources>
+        <esri:MapView x:Name="mapView" Initialized="mapView_Initialized">
+            <esri:Map>
+                <esri:Map.InitialViewpoint>
+                    <esri:ViewpointExtent XMin="13512082" YMin="2288914" XMax="17314583" YMax="6179590" SpatialReferenceID="102100" />
+                </esri:Map.InitialViewpoint>
+                <esri:ArcGISTiledMapServiceLayer ServiceUri="http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer" />
+            </esri:Map>
+        </esri:MapView>
+    </Grid>
+</Page>
