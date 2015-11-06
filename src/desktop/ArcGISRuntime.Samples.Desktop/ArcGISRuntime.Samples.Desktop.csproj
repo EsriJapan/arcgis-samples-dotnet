@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Esri.ArcGISRuntime, Version=10.2.6.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
@@ -72,6 +73,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\AddGSILayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\LabelingFeaturesByScale.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -82,6 +87,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\AddGSILayer.xaml.cs">
+      <DependentUpon>AddGSILayer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\LabelingFeaturesByScale.xaml.cs">
       <DependentUpon>LabelingFeaturesByScale.xaml</DependentUpon>
     </Compile>
@@ -115,7 +123,30 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Assets\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\english.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\lcm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\ort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\pale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\relief.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Std.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\terms.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Esri.ArcGISRuntime.10.2.6.1026\build\net45\Esri.ArcGISRuntime.targets" Condition="Exists('..\packages\Esri.ArcGISRuntime.10.2.6.1026\build\net45\Esri.ArcGISRuntime.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
