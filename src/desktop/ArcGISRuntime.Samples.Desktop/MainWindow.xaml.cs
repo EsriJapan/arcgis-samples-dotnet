@@ -44,7 +44,7 @@ namespace ArcGISRuntime.Samples.Desktop
                     };
                     pageItem.Click += (s, e) => { NavigateToPage(page.Url, s as MenuItem); };
 
-                    var categoryItem = _menu.Items.Cast<MenuItem>().Where(item => item.Header == page.Category).FirstOrDefault();
+                    var categoryItem = _menu.Items.Cast<MenuItem>().Where(item => item.Header.ToString() == page.Category).FirstOrDefault();
                     if (categoryItem != null)
                     {
                         //すでにカテゴリが存在する場合は、カテゴリの子メニューとして追加
