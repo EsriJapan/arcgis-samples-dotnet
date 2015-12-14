@@ -188,3 +188,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Runtime Contents locl files
+*.geodatabase-shm
+*.geodatabase-wal
