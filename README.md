@@ -11,13 +11,15 @@ ArcGIS Runtime SDK for .NET のサンプル集です。
 
 ## 動作環境
 ###OS
-* Windows 8.1 / 8 / 7
+* Windows 10
 
 ###開発環境
-* Microsoft Visual Studio 2013
-* Microsoft Visual Studio 2012 Update 3 以上
-* Microsoft Visual Studio Express 2013 for Windows Desktop
-* Microsoft Visual Studio Express 2012 for Windows Desktop + Update 3 以上
+* Microsoft Visual Studio 2015 (all editions)
+* Microsoft Visual Studio Express 2015 for Windows Desktop
+* Microsoft Visual Studio 2013 Update 5 (all editions)
+* Microsoft Visual Studio Express 2013 for Windows Desktop Update 5
+* Microsoft Visual Studio 2012 Update 5 (all editions)
+* Microsoft Visual Studio Express 2012 for Windows Desktop Update 5
 
 ## リソース
 
@@ -27,7 +29,7 @@ ArcGIS Runtime SDK for .NET のサンプル集です。
 * [リファレンス（Windows ストア）](https://developers.arcgis.com/net/store/api-reference/)
 
 ## ライセンス
-Copyright 2015 Esri Japan Corporation.
+Copyright 2017 Esri Japan Corporation.
 
 Apache License Version 2.0（「本ライセンス」）に基づいてライセンスされます。あなたがこのファイルを使用するためには、本ライセンスに従わなければなりません。本ライセンスのコピーは下記の場所から入手できます。
 
