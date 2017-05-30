@@ -25,8 +25,7 @@ ArcGIS Runtime SDK for .NET のサンプル集です。
 
 * [GeoNet 開発者コミュニティ サイト](https://geonet.esri.com/groups/devcom-jp)
 * [ArcGIS Runtime SDK for .NET（ESRIジャパン）](http://www.esrij.com/products/arcgis-runtime-sdk-for-dotnet/)
-* [リファレンス（WPF）](https://developers.arcgis.com/net/desktop/api-reference/)
-* [リファレンス（Windows ストア）](https://developers.arcgis.com/net/store/api-reference/)
+* [リファレンス（WPF）](https://developers.arcgis.com/net/latest/wpf/api-reference/)
 
 ## ライセンス
 Copyright 2017 Esri Japan Corporation.
