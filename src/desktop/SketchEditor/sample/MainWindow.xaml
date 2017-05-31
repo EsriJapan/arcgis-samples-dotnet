@@ -6,7 +6,7 @@
         xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"       
         xmlns:local="clr-namespace:sample"
         mc:Ignorable="d"
-        Title="Basemap v100.0" Height="800" Width="1200">
+        Title="SketchEditor" Height="800" Width="1200">
 
     <Grid>
         <esri:MapView x:Name="MyMapView" />
