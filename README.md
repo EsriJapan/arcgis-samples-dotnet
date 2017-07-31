@@ -9,9 +9,11 @@ ArcGIS Runtime SDK for .NET のサンプル集です。
 
 **ArcGIS の開発キットを使用して開発を行う場合は ArcGIS Online 開発者アカウント（[ArcGIS for Developers](https://developers.arcgis.com/en/)）が必要です。開発者アカウント作成ガイドは[こちら](http://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/signup-esri-developers.pdf)**
 
-## 動作環境
+## 動作環境 （WPF）
 ###OS
 * Windows 10
+* Windows 8.1
+* Windows 7 SP1
 
 ###開発環境
 * Microsoft Visual Studio 2015 (all editions)
@@ -21,11 +23,29 @@ ArcGIS Runtime SDK for .NET のサンプル集です。
 * Microsoft Visual Studio 2012 Update 5 (all editions)
 * Microsoft Visual Studio Express 2012 for Windows Desktop Update 5
 
+## 動作環境 （Xamarin）
+###Windows OS 
+* Windows 10
+* Windows 8.1
+
+###開発環境
+* Visual Studio 2017
+* Visual Studio 2015
+
+###Mac OS 
+* OS X El Capitan (10.11) (Xamarin.Android development only)
+* macOS Sierra (10.12)
+
+###開発環境
+* Visual Studio 2017 for Mac
+
 ## リソース
 
 * [GeoNet 開発者コミュニティ サイト](https://geonet.esri.com/groups/devcom-jp)
 * [ArcGIS Runtime SDK for .NET（ESRIジャパン）](http://www.esrij.com/products/arcgis-runtime-sdk-for-dotnet/)
 * [リファレンス（WPF）](https://developers.arcgis.com/net/latest/wpf/api-reference/)
+* [リファレンス（Xamarin.Android and Xamarin.Forms）](https://developers.arcgis.com/net/latest/android/api-reference/)
+* [リファレンス（Xamarin.iOS and Xamarin.Forms）](https://developers.arcgis.com/net/latest/ios/api-reference/)
 
 ## ライセンス
 Copyright 2017 Esri Japan Corporation.
