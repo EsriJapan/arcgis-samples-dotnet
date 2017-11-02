@@ -192,3 +192,6 @@ ModelManifest.xml
 # Runtime Contents locl files
 *.geodatabase-shm
 *.geodatabase-wal
+
+# Xcode
+.DS_Store
