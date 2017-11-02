@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{9CEC364B-6144-479C-A673-CB19A3AC4827}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sample/App.xaml.cs">
+    <Files>
+      <File FileName="sample/samplePage.xaml.cs" Line="84" Column="30" />
+      <File FileName="sample/samplePage.xaml" Line="19" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/obj/iPhone/Debug/sample.iOS.samplePage.xaml.g.cs" Line="25" Column="1" />
+      <File FileName="sample/App.xaml.cs" Line="1" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.sample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EDE15420-E817-4FA9-BF18-1C18664DA602" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
