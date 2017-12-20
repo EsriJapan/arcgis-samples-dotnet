@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{EB6B3E96-5650-49BE-A82E-8E2899F806AA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml.cs">
+    <Files>
+      <File FileName="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml.cs" Line="45" Column="13" />
+      <File FileName="Ekiworld2ArcGISApp/HttpService.cs" Line="18" Column="1" />
+      <File FileName="Ekiworld2ArcGISApp/Core.cs" Line="18" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Ekiworld2ArcGISApp/Ekiworld.cs" Line="26" Column="1" />
+      <File FileName="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml" Line="47" Column="1" />
+      <File FileName="Ekiworld2ArcGISApp/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml" line="40" offsetX="-1" offsetY="-1" expression="Color" liveUpdate="False" />
+    <Watch file="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml" line="11" offsetX="-1" offsetY="-1" expression="Label" liveUpdate="False" />
+    <Watch file="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml.cs" line="150" offsetX="921" offsetY="2235" expression="result" liveUpdate="False" />
+    <Watch file="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml.cs" line="147" offsetX="740" offsetY="2190" expression="layerFeatures" liveUpdate="False" />
+    <Watch file="Ekiworld2ArcGISApp/Ekiworld2ArcGISAppPage.xaml.cs" line="150" offsetX="1037" offsetY="2235" expression="result" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Ekiworld2ArcGISApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.91D2A474-CAB7-4AF2-8856-064BF728E00F" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Ekiworld2ArcGISApp.iOS>
+</Properties>
