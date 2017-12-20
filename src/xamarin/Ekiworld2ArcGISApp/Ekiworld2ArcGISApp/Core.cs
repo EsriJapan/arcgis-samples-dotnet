@@ -9,7 +9,7 @@ namespace Ekiworld2ArcGISApp
     public class Core
     {
         static string api_Endpoint = "https://api.ekispert.jp";
-        static string api_key = "LE_FZDRqSBUYcQXG";
+        static string api_key = "xxxxxxxxxxxxxxx"; // api_key を指定
 
         public static async Task<List<Ekiworld>> GetEkiworldResult(string Ekiworld)
         {   
