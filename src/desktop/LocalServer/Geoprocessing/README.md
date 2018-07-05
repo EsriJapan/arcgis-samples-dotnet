@@ -5,7 +5,7 @@ ArcGIS Runtime SDK for .NET（WPF API）のローカル サーバー機能を使
 ![localserver-geoprocessing-dotnet](image/thumbnai.png)
 
 # 開発環境
-* ArcGIS Runtime SDK バージョン 100.2.1
+* ArcGIS Runtime SDK for .NET バージョン 100.2.1
 
 # ローカル サーバーを使用するための開発環境の準備
 
@@ -18,9 +18,10 @@ ArcGIS Runtime SDK for .NET の動作要件は[動作環境ページ](https://ww
  * Microsoft Visual C++ 2010 Redistributable Package (x86 または x64)
  * Microsoft Visual C++ 2012 Redistributable Package (x86 または x64)
  * Microsoft Visual C++ 2013 Redistributable Package (x86 または x64)
-1. [SDK のダウンロードページ](https://developers.arcgis.com/downloads/#arcgis-runtime-local-server)から ローカル サーバー用の SDK をダウンロードし、インストールします(ArcGIS for Developers の[開発者アカウント](http://esrijapan.github.io/arcgis-dev-resources/get-dev-account/)が必要です)。
 
-1. Visual Studio のプロジェクトで、Esri.ArcGISRuntime.WPF とは別に ローカル サーバー用の NuGet パッケージ（Esri.ArcGISRuntime.LocalServices ）も併せてインストールします（サンプル プロジェクトをそのまま実行する場合は、ビルド時に自動でインストールされます）。
+1. [SDK のダウンロードページ](https://developers.arcgis.com/downloads/#arcgis-runtime-local-server)から ローカル サーバー用の SDK をダウンロードし、インストールします（ArcGIS for Developers の[開発者アカウント](http://esrijapan.github.io/arcgis-dev-resources/get-dev-account/)が必要です）。
+
+1. Visual Studio のプロジェクトで、Esri.ArcGISRuntime.WPF とは別に ローカル サーバー用の NuGet パッケージ（Esri.ArcGISRuntime.LocalServices）も併せてインストールします（サンプル プロジェクトをそのまま実行する場合は、ビルド時に自動でインストールされます）。
 
 1. 最初にローカル サーバーを使用するプロジェクトをビルドすると、プロジェクト ディレクトリに XML 形式のマニフェスト ファイル（ArcGISLocalServer.AGSDeployment）が作成されます。このマニフェスト ファイルではアプリケーションに配置するローカル サーバーのコンポーネントを定義します。本サンプルを実行する場合は、以下の様に編集して "Geoprocessing" パッケージを有効にします（サンプル プロジェクトをそのまま実行する場合は、既に作成・設定済みのためこの作業は不要です）。
 ```xml
@@ -37,7 +38,7 @@ ArcGIS Runtime SDK for .NET の動作要件は[動作環境ページ](https://ww
 
 1. ArcMap を起動します
 1. ArcMap で、「ポイント → ライン (Points to Line)」ジオプロセシング ツールを実行します
-1. ジオプロセシングの [結果] ウィンドウを開き、実行したツールを右クリックし、[共有] -> [ジオプロセシング パッケージ] を選択します
+1. ジオプロセシング メニューの [結果] ウィンドウを開き、実行したツールを右クリックし、[共有] -> [ジオプロセシング パッケージ] を選択します
 1. 「パッケージをファイルに保存」、「スキーマのみパッケージ」、「ArcGIS Runtime のサポート」をチェックします
 ※「ArcGIS Runtime のサポート」のチェックが表示されていない場合は、メニューの [カスタマイズ] -> [ArcMap オプション] -> [共有] で、「ArcGIS Runtime ツールの有効化」をチェックします
 1. 「ポイント → ライン (Points to Line)」のタブを選択して、名前を「Points_To_Line」に変更します
