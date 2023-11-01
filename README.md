@@ -1,5 +1,11 @@
 # arcgis-samples-dotnet
 
+> このリポジトリで使用している ArcGIS Runtime SDK for .NET 100.x は、2027 年 9 月にサポート終了が予定されており、不具合修正やマイナー アップデートに重点が置かれています。 
+> 
+> ArcGIS Runtime SDK for .NET 100.x のサポート終了についての詳細は、「[ArcGIS Runtime SDK の今後のバージョンアップの計画についてのお知らせ](https://community.esri.com/t5/a/a/ta-p/1174047)」をご参照ください。 
+> 
+> .NET アプリの開発には、最新バージョンの [ArcGIS Maps SDK for .NET バージョン 200.x](https://www.esrij.com/products/arcgis-maps-sdk-for-dotnet/) をご利用ください。 [機能別のサンプルコード](https://developers.arcgis.com/net/wpf/sample-code/) もご利用いただけます。
+
 ArcGIS Runtime SDK for .NET のサンプル集です。
 
 ## 使用している製品・プロジェクト
